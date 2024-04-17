@@ -406,4 +406,13 @@ footer .link:hover {
     max-height: 250px;
     /* background-color: red; */
   }
+
+  .grid-projects {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-techs,
+  .grid-tools {
+    grid-template-columns: 1fr 1fr;
+  }
 }
