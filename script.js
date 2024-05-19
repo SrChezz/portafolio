@@ -5,3 +5,5 @@ mNav.addEventListener('click', function (e) {
   console.log('click');
   nav.classList.toggle('active');
 });
+
+console.log(env.TEST)
