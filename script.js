@@ -8,8 +8,8 @@ mNav.addEventListener('click', function (e) {
 const CV = document.getElementById('CV');
 
 CV.addEventListener('click', function (e) {
-  e.preventDefault();
-  console.log('test');
+  // e.preventDefault();
+  // console.log('test');
   gtag('event', 'cv_view', {
     app_name: 'Portafolio',
     screen_name: 'Home',
